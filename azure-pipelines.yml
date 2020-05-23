@@ -24,7 +24,7 @@ steps:
   inputs:
     verbose: false
 
-- script: './node_modules/.bin/node-sass $(buildConfiguration) --output $(buildConfiguration)'
+- script: './node_modules/.bin/node-sass $(workingDirectory) --output $(workingDirectory)'
   displayName: 'Compile Sass assets'
 
 - task: gulp@1
