@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/jasonapitest/FirstTestProject/_apis/build/status/jasonli-lijie.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/jasonapitest/FirstTestProject/_build/latest?definitionId=1&branchName=master)
 
 # Contributing
 
