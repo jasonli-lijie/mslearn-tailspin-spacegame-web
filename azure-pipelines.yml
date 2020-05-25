@@ -46,6 +46,7 @@ steps:
     projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
+
   displayName: 'Install ReportGenerator'
   inputs:
     command: custom
@@ -71,6 +72,7 @@ steps:
     summaryFileLocation: '$(Build.SourcesDirectory)/**/coverage.cobertura.xml'
 
 - task: DotNetCoreCLI@2
+
   displayName: 'Publish the project - $(buildConfiguration)'
   inputs:
     command: 'publish'
